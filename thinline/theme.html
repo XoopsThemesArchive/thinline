@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="Keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="Description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_themecss}>" />
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+<style type="text/css">
+</style>
+</head>
+
+<body>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td id="s1p1" width="150"><img src="<{$xoops_imageurl}>images/logo.gif" width="149" height="50" /></td>
+    <td id="s1p2"colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="150" valign="top" id="s2p1"> 
+      <div ><{foreach item=block from=$xoops_lblocks}></div>
+      <div align="left"> 
+        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr> 
+            <td class="blockTitle"><{$block.title}></td>
+          </tr>
+          <tr> 
+            <td class="blockContent"><{$block.content}></td>
+          </tr>
+          <tr> 
+            <td class="blockFoot">&nbsp;</td>
+          </tr>
+        </table>
+        <{/foreach}> </div></td>
+    <td valign="top" bgcolor="#F8F8F8" id="s2p2"><br />
+      <table width="94%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td id="content" valign="top"><div ><{foreach item=block from=$xoops_ccblocks}></div>
+            <div align="left"> 
+              <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td class="blockcctitle"><{$block.title}></td>
+                </tr>
+                <tr> 
+                  <td class="blockcccontent"><{$block.content}></td>
+                </tr>
+              </table>
+              <{/foreach}> </div> </td>
+        </tr>
+      </table>
+      <br />
+      <table width="94%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td id="content" valign="top"><{$xoops_contents}> </td>
+        </tr>
+      </table>
+    </td>
+    <td width="150" valign="top" id="s2p3"> 
+      <div ><{foreach item=block from=$xoops_rblocks}></div>
+      <div align="left"> 
+        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr> 
+            <td class="blockTitleright"><{$block.title}></td>
+          </tr>
+          <tr> 
+            <td class="blockContentright"><{$block.content}></td>
+          </tr>
+          <tr> 
+            <td class="blockFoot">&nbsp;</td>
+          </tr>
+        </table>
+        <{/foreach}> </div> </td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top" id="s3p1">
+<div class="weare">Powered by <a href="http://br.underpop.com/">Xoops</a> | Designed 
+        by <a href="http://www.incama.nl">Incama</a></div></td>
+    <td id="s3p2" width="150"><img src="<{$xoops_imageurl}>images/xt.gif" width="149" height="50" /></td>
+  </tr>
+</table>
+</body>
+</html>
